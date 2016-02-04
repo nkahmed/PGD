@@ -2,6 +2,7 @@
 *~
 *.asv
 *.eps
+pgd
 
 # Compiled Object files
 *.slo
