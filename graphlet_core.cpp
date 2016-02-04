@@ -936,8 +936,13 @@ void graphlet_core::create_edge_list_arrays() {
 		for (long long j=vertices[v]; j<vertices[v+1]; j++) {
 			long long u = edges[j];
 			if (v<u) {
-				e_v.push_back(v);
-				e_u.push_back(u);
+				if ((vertices[v+1]-vertices[v]) < (vertices[u+1]-vertices[u])) {
+					e_v.push_back(u);
+					e_u.push_back(v);	
+				} else {
+					e_v.push_back(v);
+					e_u.push_back(u);
+				}
 			}
 		}
 	}
