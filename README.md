@@ -373,5 +373,12 @@ Please feel free to use the [PGD library](http://nesreenahmed.com/graphlets). We
         1506.04322, 2015.
 
 
+
+Graph Datasets
+--------------------
+Please check the following link for additional graph datasets:
+[Network Repository] (http://networkrepository.com/)
+
+
 See the LICENSE file for further information.
 Copyright 2012-2015, [Nesreen K. Ahmed](http://nesreenahmed.com) and [Ryan A. Rossi](http://ryanrossi.com). All rights reserved.
