@@ -274,7 +274,7 @@ void graphlet_core::read_graph(const string& filename) {
         read_mtx(filename);
     }
     else {
-        if (verbose) cout << "[pgd: general graph reader] Unsupported graph format. Attempting to read the graph." <<endl;
+        if (verbose) cout << "[pgd: general graph reader] Reading the graph" <<endl;
         read_edge_list(filename);
     }
     if (verbose) cout << "Reading time " << get_time() - sec << endl;
@@ -451,7 +451,7 @@ void graphlet_core::read_edge_list(const string& filename) {
     	vertices.push_back(edges.size());
     }
     vert_list.clear();
-    bool delete_multiple_edges = false;
+    bool delete_multiple_edges = true; /// todo: set via command line
     if (delete_multiple_edges) { remove_multiple_edges(); }
     if (verbose) cout << "self-loops: " << self_edges <<endl;
 }
