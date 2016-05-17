@@ -2,7 +2,7 @@
 
 A fast parallel graphlet decomposition library for large graphs.
 
-Please refer to the paper [1] for detailed discussion on the algorithm.
+Please refer to our paper [Efficient Graphlet Counting for Large Networks](http://www.nesreenahmed.com/publications/ahmed-et-al-icdm2015.pdf) for detailed discussion on the algorithm.
 
 
 
