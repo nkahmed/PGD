@@ -1675,7 +1675,6 @@ inline void graphlet_core::load_progress_bar(long long x, long long n, long long
 
      if (output_id) { str_stream << "src"<<delim<<"dst"<<delim; }
      str_stream << "triangle"<<delim<<
-		     "triangle"<<delim<<
 		     "2-star"<<delim<<
 		     "4-clique"<<delim<<
 		     "4-chordal-cycle"<<delim<<
