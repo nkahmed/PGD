@@ -381,4 +381,4 @@ Please check the following link for additional graph datasets:
 
 
 See the LICENSE file for further information.
-Copyright 2012-2015, [Nesreen K. Ahmed](http://nesreenahmed.com) and [Ryan A. Rossi](http://ryanrossi.com). All rights reserved.
+Copyright 2012-2015, [Nesreen K. Ahmed](http://nesreenahmed.com). All rights reserved.
