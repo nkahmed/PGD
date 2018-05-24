@@ -37,9 +37,9 @@ using namespace std;
 bool fexists(const char *filename) {
     ifstream ifile(filename);
 #ifdef WIN32
-    return ifile!=0;
+    return (bool) ifile!=0;
 #else
-    return ifile;
+    return (bool) ifile;
 #endif
 }
 
