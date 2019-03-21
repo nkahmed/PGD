@@ -39,7 +39,7 @@ bool fexists(const char *filename) {
 #ifdef WIN32
     return ifile!=0;
 #else
-    return ifile;
+    return (bool)ifile;
 #endif
 }
 
